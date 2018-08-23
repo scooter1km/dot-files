@@ -12,6 +12,8 @@ alias list_sym 'nm -D -C -u'
 alias whichrpm 'rpm -qf'
 alias unix2dos 'recode lat1..ibmpc'
 alias rcs_diff 'diff -I \$Id'
+alias pdfconcat 'gs -o concat.pdf -sDEVICE=pdfwrite -dPDFSettings=/printer -dCompatibility=1.4'
+alias psconcat 'gs -o concat.ps -sDEVICE=ps2write'
 
 ##############################
 # Set up tcsh:
