@@ -116,3 +116,12 @@
 (put 'downcase-region 'disabled nil)
 
 (put 'upcase-region 'disabled nil)
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(ps-font-size (quote (7 . 7)))
+ '(ps-header-lines 1)
+ '(ps-left-header (quote (ps-get-buffer-name)))
+ '(ps-right-header (quote ("/pagenumberstring load"))))
